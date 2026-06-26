@@ -1,171 +1,266 @@
-# QuantumStock AI: Advanced ML-Powered Stock Prediction & Portfolio Optimization
+<div align="center">
 
-QuantumStock AI is a state-of-the-art financial analysis and predictive modeling platform designed for active traders and asset allocators. Built with a highly advanced Next.js frontend featuring glassmorphism cyberpunk aesthetics, the system leverages a Python FastAPI backend hosting a 5-model weighted Machine Learning ensemble, explainable AI predictions (SHAP), dynamic portfolio optimization, and a conversational financial chatbot assistant.
+# 🚀 QuantumStock AI
+
+### AI-Powered Stock Market Prediction & Portfolio Optimization Platform
+
+Predict • Analyze • Optimize • Backtest • Invest Smarter
+
+
+## 📈 Project Overview
+
+QuantumStock AI is an advanced AI-powered stock market analysis platform that combines machine learning, technical analysis, and portfolio optimization to help investors make data-driven investment decisions.
+
+The platform predicts future stock prices, explains prediction results using technical indicators, optimizes investment portfolios, performs historical strategy backtesting, and provides an intelligent financial assistant through an interactive dashboard.
 
 ---
 
-## Technical Architecture
+# ✨ Features
 
-```mermaid
-graph TD
-    A[Next.js Client] -->|HTTPS Requests| B[FastAPI Web Server]
-    B -->|User Auth / Alerts / Watchlist| C[(PostgreSQL Database)]
-    B -->|Fast Session Caching| D[(Redis Data Store)]
-    
-    subgraph Python Prediction Engine
-        E[yfinance Data Pipeline] -->|Historical Arrays| F[Technical Indicator Solver]
-        F -->|Feature Inputs| G[Multi-Model Ensemble Engine]
-        
-        subgraph Ensemble Estimators
-            G1[PyTorch LSTM Neural Network]
-            G2[XGBoost Gradient Regressor]
-            G3[LightGBM Structural Forest]
-            G4[Scikit-Learn Random Forest]
-            G5[Prophet Seasonality Forecaster]
-        end
-        
-        G1 & G2 & G3 & G4 & G5 -->|In-Sample MAE Validation| H[Dynamic Weighted Averager]
-    end
-    
-    B -->|Runs Predictions| E
-    H -->|Range Forecast & Probabilities| B
-    B -->|SHAP Explanations| I[Explainable AI Engine]
-    B -->|Sentiment Classifier| J[Lexicon News Scraper]
-    B -->|Mean-Variance Frontier| K[Portfolio Covariance Solver]
-    B -->|Day-by-Day Simulator| L[Backtesting Trading Engine]
+- 🤖 AI Stock Price Prediction
+- 📈 Interactive Historical Charts
+- 📊 Technical Indicators (RSI, MACD, SMA, EMA)
+- 💬 AI Financial Analyst Chatbot
+- 🔍 Search Global Stocks
+- 📉 Buy/Sell Prediction
+- 💼 Portfolio Optimization
+- 📊 Investment Calculator
+- 🔄 Strategy Backtesting
+- 📱 Fully Responsive Dashboard
+- 🌙 Modern Dark UI
+- 🔐 User Authentication
+
+---
+
+# 🧠 AI Models Used
+
+- LSTM Neural Networks
+- XGBoost
+- Random Forest
+- LightGBM
+- Facebook Prophet
+
+These models work together using Ensemble Learning to improve prediction accuracy.
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Chart.js
+
+## Backend
+
+- Python
+- Flask
+
+## Machine Learning
+
+- TensorFlow
+- Scikit-learn
+- XGBoost
+- LightGBM
+- Prophet
+
+## Data
+
+- Pandas
+- NumPy
+- Yahoo Finance API
+
+---
+
+# 📷 Application Screenshots
+
+## 🏠 Home Page
+
+![Home](<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/06144a4c-5a03-45a1-82ee-b59c202ce40a" />)
+
+---
+
+##  AI Chat Bot
+
+![chatbot]<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/8c9eff0d-c252-4102-9bef-eee539d9843b" />
+
+
+## 🔐 Login
+
+![Login](<img width="1919" height="954" alt="Screenshot 2026-06-26 133443" src="https://github.com/user-attachments/assets/c5dc5dcd-11f0-4398-89e7-7555512f3654" />
+)
+
+---
+
+## 📝 Registration
+
+![Register](<img width="1919" height="954" alt="Screenshot 2026-06-26 133625" src="https://github.com/user-attachments/assets/75d9de9a-e25d-4e46-b0d3-e0152272c626" />
+)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](<img width="1918" height="943" alt="Screenshot 2026-06-26 134903" src="https://github.com/user-attachments/assets/6c6eae6e-88f0-47d1-8ab0-31efc1fc0b38" />
+)
+
+---
+
+## 📈 Stock Analysis
+
+![Analysis](<img width="1919" height="848" alt="Screenshot 2026-06-26 134929" src="https://github.com/user-attachments/assets/40ccca43-c980-4d4f-940e-1617fb090d0f" />
+)
+
+---
+
+## 🤖 AI Prediction
+
+![Prediction](<img width="1913" height="951" alt="Screenshot 2026-06-26 134952" src="https://github.com/user-attachments/assets/e862a310-b7de-4488-aa8c-b1573ba612b0" />
+)
+
+---
+
+## 💼 Portfolio Optimizer
+
+![Portfolio](<img width="1915" height="944" alt="Screenshot 2026-06-26 135113" src="https://github.com/user-attachments/assets/99f8863b-ef95-45de-b49f-119c73850c3f" />
+)
+
+---
+
+## 📉 Strategy Backtesting
+
+![Backtest](<img width="1918" height="950" alt="Screenshot 2026-06-26 135215" src="https://github.com/user-attachments/assets/f4952686-5c6e-4e0d-be58-67ec9b24d836" />
+)
+
+---
+
+# 📂 Project Structure
+
+```
+QuantumStock
+│
+├── backend
+│   ├── app.py
+│   ├── models
+│   ├── routes
+│   ├── data
+│   └── requirements.txt
+│
+├── frontend
+│   ├── css
+│   ├── js
+│   ├── assets
+│   └── index.html
+│
+├── screenshots
+│
+├── README.md
+│
+└── requirements.txt
 ```
 
 ---
 
-## Database ER Diagram
+# ⚙ Installation
 
-```mermaid
-erDiagram
-    USERS {
-        uuid id PK
-        string name
-        string email UK
-        string phone_number
-        string hashed_password
-        text bio
-        string preferred_market
-        string risk_appetite
-        string investment_duration
-        boolean is_verified
-        string otp_secret
-        integer failed_login_attempts
-        datetime locked_until
-        datetime created_at
-    }
-    
-    WATCHLISTS {
-        integer id PK
-        uuid user_id FK
-        string symbol
-        datetime added_at
-    }
-    
-    SAVED_STRATEGIES {
-        integer id PK
-        uuid user_id FK
-        string name
-        json criteria
-        datetime created_at
-    }
-    
-    ALERTS {
-        integer id PK
-        uuid user_id FK
-        string symbol
-        string alert_type
-        float threshold
-        boolean is_triggered
-        datetime triggered_at
-    }
+### Clone Repository
 
-    USERS ||--o{ WATCHLISTS : "monitors"
-    USERS ||--o{ SAVED_STRATEGIES : "customizes"
-    USERS ||--o{ ALERTS : "subscribes"
+```bash
+git clone https://github.com/sunilmc197/QuantumStock.git
+```
+
+### Open Project
+
+```bash
+cd QuantumStock
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run
+
+```bash
+python app.py
+```
+
+Open your browser
+
+```
+http://127.0.0.1:5000
 ```
 
 ---
 
-## Key Features
+# 🎯 Future Improvements
 
-1. **Self-Healing Hybrid Run Mode**: Out-of-the-box configuration that automatically falls back to an in-memory SQLite database and thread-safe local dictionary cache if PostgreSQL/Redis is not running.
-2. **Multi-Model Predictive Ensemble**: Fits PyTorch LSTM, XGBoost, LightGBM, Random Forest, and Prophet models recursively, weighting them dynamically by evaluating historical MAE over the last 30 trading days.
-3. **Explainable AI (SHAP)**: Extracts model feature importances and converts indicator signals (e.g. RSI crossovers, MACD momentum, volume surges) into clear, natural English rationales.
-4. **News Sentiment Analysis**: Live news scraper using yfinance feed matching headlines against a curated financial sentiment lexicon.
-5. **Modern Portfolio Optimization**: Standard Markowitz Mean-Variance optimization resolving returns covariance over historical 1-year windows to allocate assets based on risk appetites.
-6. **Robust Strategy Backtester**: Simulates historical trading signals (RSI/MA crossover) with tracking of equity growth, Sharpe ratios, drawdowns, and transaction logs.
-7. **Virtual AI Financial Chatbot**: Context-aware chatbot that parses user inputs for stock tickers to run predictions, indicators, and sentiment summaries on the fly.
-8. **Futuristic Security Center**: JWT tokens, password hashing, Multi-Factor Authentication (MFA) OTP generation and validation, and anti-brute force lockout protection (after 5 failed attempts).
-
----
-
-## REST API Documentation
-
-| Endpoint | Method | Authentication | Description |
-| :--- | :--- | :--- | :--- |
-| `/api/auth/register` | POST | None | Creates a new account, generates TOTP secret. |
-| `/api/auth/verify-email` | POST | None | Activates email utilizing TOTP code. |
-| `/api/auth/login` | POST | None | Validates password, locks account on brute force, issues JWT. |
-| `/api/auth/me` | GET | Bearer Token | Retrieves authenticated user profile details. |
-| `/api/auth/profile` | PUT | Bearer Token | Updates profile preference variables. |
-| `/api/stocks/search` | GET | None | Autocompletes matching stock symbols. |
-| `/api/stocks/details` | GET | None | Runs ML predictors and returns forecasts & indicators. |
-| `/api/stocks/macro-dashboard` | GET | None | Fetches S&P, NASDAQ, NIFTY index valuations. |
-| `/api/watchlist` | GET | Bearer Token | Retrieves watchlist symbols. |
-| `/api/portfolio/optimize` | POST | None | Generates Markowitz portfolio weights. |
-| `/api/backtest/run` | POST | None | Runs strategy backtesting simulation. |
-| `/api/chatbot/message` | POST | Bearer Token | Message router calling conversational analyst. |
+- Real-time Market Streaming
+- News Sentiment Analysis
+- AI Recommendation Engine
+- Candlestick Pattern Detection
+- Cryptocurrency Prediction
+- Multi-language Support
+- Mobile Application
+- Cloud Deployment
 
 ---
 
-## Installation & Setup Guide
+# 📊 Key Functionalities
 
-### Prerequisites
-- Node.js (v18+)
-- Python (v3.9+)
+✅ AI Price Prediction
 
-### Backend Environment Setup
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the FastAPI development server:
-   ```bash
-   python main.py
-   ```
-   *Note: If no custom `DATABASE_URL` or `REDIS_URL` are provided, the backend self-heals by instantiating `quantumstock.db` locally.*
+✅ Technical Indicator Analysis
 
-### Frontend Environment Setup
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-2. Install Node packages:
-   ```bash
-   npm install
-   ```
-3. Start the Next.js client console:
-   ```bash
-   npm run dev
-   ```
-4. Access the portal at [http://localhost:3000]([http://localhost:3000](http://localhost:3005/)).
+✅ Portfolio Optimization
+
+✅ Investment Calculator
+
+✅ Strategy Backtesting
+
+✅ Authentication System
+
+✅ Responsive Dashboard
 
 ---
 
-## Resume Bullet Points (Ideal for B.Tech Resume)
+# 📌 Learning Outcomes
 
-* **QuantumStock AI — Creator & Lead Developer**
-  * Developed a predictive time-series stock analysis platform using Next.js, FastAPI, PostgreSQL, and Redis, accommodating active data scraping of global markets.
-  * Designed and trained a multi-model weighted ensemble (LSTM + XGBoost + LightGBM + Random Forest + Prophet) that evaluates in-sample prediction errors over rolling 30-day windows to dynamic-weight forecasts.
-  * Integrated Explainable AI (XAI) models using SHAP (SHapley Additive exPlanations) to translate technical feature contributions (RSI, MACD, Volume) into natural language explanations.
-  * Programmed a portfolio covariance optimization solver (Mean-Variance style) and an algorithmic backtester, tracking Sharpe ratios, drawdowns, and transactional order ledgers with 90%+ simulation accuracy.
-  * Formulated a secure authentication stack incorporating JWT bearer tokens, SHA-256 password hashing (bcrypt), and Multi-Factor Authenticator (TOTP) codes with automatic account lockout protections.
-  * Architected a resilient "Self-Healing Run Mode" enabling zero-config local operation by automatically mapping fallback memory states (SQLite + local Cache dictionaries) if PostgreSQL/Redis endpoints are offline.
+This project demonstrates practical knowledge of:
+
+- Machine Learning
+- Deep Learning
+- Financial Data Analysis
+- Portfolio Optimization
+- Data Visualization
+- Web Development
+- API Integration
+- Python Development
+- Frontend UI Design
+
+---
+
+# 👨‍💻 Author
+
+**Sunil MC**
+
+AI & Machine Learning Student
+
+## GitHub:
+
+[https://github.com/sunilmc197](https://github.com/sunilmc197)
+
+## Linkedin:
+
+
+
+
+
+
+---
+
+## ⭐ If you found this project helpful, don't forget to Star the repository!
