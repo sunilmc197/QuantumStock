@@ -78,7 +78,7 @@ These models work together using Ensemble Learning to improve prediction accurac
 
 ## 🏠 Home Page
 
-![Home](<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/06144a4c-5a03-45a1-82ee-b59c202ce40a" />)
+![Home]<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/06144a4c-5a03-45a1-82ee-b59c202ce40a" />
 
 ---
 
@@ -89,50 +89,50 @@ These models work together using Ensemble Learning to improve prediction accurac
 
 ## 🔐 Login
 
-![Login](<img width="1919" height="954" alt="Screenshot 2026-06-26 133443" src="https://github.com/user-attachments/assets/c5dc5dcd-11f0-4398-89e7-7555512f3654" />
-)
+![Login]<img width="1919" height="954" alt="Screenshot 2026-06-26 133443" src="https://github.com/user-attachments/assets/c5dc5dcd-11f0-4398-89e7-7555512f3654" />
+
 
 ---
 
 ## 📝 Registration
 
-![Register](<img width="1919" height="954" alt="Screenshot 2026-06-26 133625" src="https://github.com/user-attachments/assets/75d9de9a-e25d-4e46-b0d3-e0152272c626" />
-)
+![Register]<img width="1919" height="954" alt="Screenshot 2026-06-26 133625" src="https://github.com/user-attachments/assets/75d9de9a-e25d-4e46-b0d3-e0152272c626" />
+
 
 ---
 
 ## 📊 Dashboard
 
-![Dashboard](<img width="1918" height="943" alt="Screenshot 2026-06-26 134903" src="https://github.com/user-attachments/assets/6c6eae6e-88f0-47d1-8ab0-31efc1fc0b38" />
-)
+![Dashboard]<img width="1918" height="943" alt="Screenshot 2026-06-26 134903" src="https://github.com/user-attachments/assets/6c6eae6e-88f0-47d1-8ab0-31efc1fc0b38" />
+
 
 ---
 
 ## 📈 Stock Analysis
 
-![Analysis](<img width="1919" height="848" alt="Screenshot 2026-06-26 134929" src="https://github.com/user-attachments/assets/40ccca43-c980-4d4f-940e-1617fb090d0f" />
-)
+![Analysis]<img width="1919" height="848" alt="Screenshot 2026-06-26 134929" src="https://github.com/user-attachments/assets/40ccca43-c980-4d4f-940e-1617fb090d0f" />
+
 
 ---
 
 ## 🤖 AI Prediction
 
-![Prediction](<img width="1913" height="951" alt="Screenshot 2026-06-26 134952" src="https://github.com/user-attachments/assets/e862a310-b7de-4488-aa8c-b1573ba612b0" />
-)
+![Prediction]<img width="1913" height="951" alt="Screenshot 2026-06-26 134952" src="https://github.com/user-attachments/assets/e862a310-b7de-4488-aa8c-b1573ba612b0" />
+
 
 ---
 
 ## 💼 Portfolio Optimizer
 
-![Portfolio](<img width="1915" height="944" alt="Screenshot 2026-06-26 135113" src="https://github.com/user-attachments/assets/99f8863b-ef95-45de-b49f-119c73850c3f" />
-)
+![Portfolio]<img width="1915" height="944" alt="Screenshot 2026-06-26 135113" src="https://github.com/user-attachments/assets/99f8863b-ef95-45de-b49f-119c73850c3f" />
+
 
 ---
 
 ## 📉 Strategy Backtesting
 
-![Backtest](<img width="1918" height="950" alt="Screenshot 2026-06-26 135215" src="https://github.com/user-attachments/assets/f4952686-5c6e-4e0d-be58-67ec9b24d836" />
-)
+![Backtest]<img width="1918" height="950" alt="Screenshot 2026-06-26 135215" src="https://github.com/user-attachments/assets/f4952686-5c6e-4e0d-be58-67ec9b24d836" />
+
 
 ---
 
