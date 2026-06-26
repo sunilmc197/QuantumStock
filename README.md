@@ -262,6 +262,12 @@ AI & Machine Learning Student
 
 ## Linkedin:
 
+https://www.linkedin.com/in/sunilchakkarappan/?skipRedirect=true
+
+## Leetcode:
+
+https://leetcode.com/u/sunilmc/
+
 
 
 
