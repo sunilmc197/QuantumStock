@@ -197,12 +197,6 @@ http://127.0.0.1:5000
 
 ---
 
-### HOST
-
-http://localhost:3005/
-
----
-
 # 🎯 Future Improvements
 
 - Real-time Market Streaming
