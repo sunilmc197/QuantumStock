@@ -156,7 +156,7 @@ erDiagram
    ```bash
    npm run dev
    ```
-4. Access the portal at [http://localhost:3000](http://localhost:3000).
+4. Access the portal at [http://localhost:3000]([http://localhost:3000](http://localhost:3005/)).
 
 ---
 
