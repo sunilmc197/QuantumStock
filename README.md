@@ -84,7 +84,7 @@ These models work together using Ensemble Learning to improve prediction accurac
 
 ##  AI Chat Bot
 
-![chatbot]<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/8c9eff0d-c252-4102-9bef-eee539d9843b" />
+![chatbot](<img width="1919" height="951" alt="Screenshot 2026-06-26 133306" src="https://github.com/user-attachments/assets/8c9eff0d-c252-4102-9bef-eee539d9843b" />)
 
 
 ## 🔐 Login
@@ -194,6 +194,12 @@ Open your browser
 ```
 http://127.0.0.1:5000
 ```
+
+---
+
+### HOST
+
+http://localhost:3005/
 
 ---
 
